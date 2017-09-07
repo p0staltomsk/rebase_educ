@@ -15,7 +15,7 @@
   "size-limit": [
     {
       "path": "./index.js",
-      "limit": "20 B"
+      "limit": "23 B"
     }
   ],
   "browser": {
