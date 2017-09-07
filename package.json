@@ -1,0 +1,24 @@
+{
+  "name": "twofivefive",
+  "version": "1.0.0",
+  "description": "Demonstrating Size Limit",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js && size-limit",
+    "size": "size-limit"
+  },
+  "author": "Your's truly",
+  "license": "ISC",
+  "devDependencies": {
+    "size-limit": "^0.8.4"
+  },
+  "size-limit": [
+    {
+      "path": "./index.js",
+      "limit": "20 B"
+    }
+  ],
+  "browser": {
+    "./index.js": "./index.browser.js"
+  }
+}
