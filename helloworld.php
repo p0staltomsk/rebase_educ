@@ -24,8 +24,15 @@ class Feature {
     {
         $this->password = '123';
     }
-}
 
+    /**
+     * @return string
+     */
+    public function getPassword()
+    {
+        return $this->password;
+    }
+}
 function name () {
 
 }
