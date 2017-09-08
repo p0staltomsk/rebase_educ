@@ -34,6 +34,19 @@ class Feature {
     }
 
     /**/
-}function name () {
 
 }
+
+function name () {
+
+}
+
+/**
+ * Class someclass
+ */
+class someclass
+{
+
+}
+
+echo 1;
