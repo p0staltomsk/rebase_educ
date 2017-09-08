@@ -25,3 +25,7 @@ class Feature {
         $this->password = '123';
     }
 }
+
+function name () {
+
+}
