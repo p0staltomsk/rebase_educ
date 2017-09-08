@@ -32,7 +32,8 @@ class Feature {
     {
         return $this->password;
     }
-}
-function name () {
+
+    /**/
+}function name () {
 
 }
