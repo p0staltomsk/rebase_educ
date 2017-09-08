@@ -15,7 +15,7 @@
   "size-limit": [
     {
       "path": "./index.js",
-      "limit": "35 B" // @TODO mol tak i syak
+      "limit": "25 B" // вернул назад 25B @TODO mol tak i syak
     }
   ],
   "browser": {
